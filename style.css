@@ -6,9 +6,9 @@
 }
 
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
-    background-color: #000000;
+    background-color: #17191a;
     color: #F6F6F6;
 }
 
@@ -18,7 +18,8 @@ body{
 }
 
 .apresentacao{
-    margin: 10% 15%;
+    /* margin: 10% 15%; */
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -48,5 +49,16 @@ body{
 .images_tech{
     size: 10px;
     padding: 0 10px;
+}
+
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: #22D4FD;
+    padding: 20px; 
+    justify-content: center;
+
 }
 
