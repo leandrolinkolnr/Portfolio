@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400&display=swap');
+
+/* Padding:  CIMA DIREITA BAIXO ESQUERDA */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.cabecalho{
+    padding: 1.5% 0% 0% 15%;
+    
+}
+.cabecalho__menu{
+    
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    gap: 25px;
+    justify-content: flex-end;
+    padding: 0.5% 5% 6% 0%; 
+    
+       
+}
+
+.cabecalho__menu__link {
+    font-size: 0.75rem;
+    color: #CCD6F6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__menu__link__resumo{
+    color: #64FFDA;
+    border: 1px solid #64FFDA;
+    border-radius: 4px;
+    padding: 10px 15px;
+}
+
+
+body{
+    /* height: 100vh; */
+    box-sizing: border-box;
+    background-color: #0a192f;
+    /* background-color: #495670; SELECIONADO */
+    color: #F6F6F6;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+    font-size: 2.9rem;
+
+}
+
+.apresentacao{
+    /* margin: 10% 15%; */
+    padding: 5% 7% 25% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    color: #64FFDA;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.2rem;
+    font-family: 'Krona One', sans-serif;
+    
+}
+
+.apresentacao__conteudo__texto{
+    color: #F6F6F6;
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5% 0% 10% 0% ;
+}
+
+.apresentacao__images {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.images_tech {
+    width: 8%;
+    padding: 0 10px;
+}
+
+
+.conteudo__about {
+    /* padding: 5% 7% 25% 10%; */
+
+    padding: 0% 20% 15% 15%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.about__titulo {
+    padding: 4% 20% 0% 15%;
+    color: #22D4FD;
+}
+
+.about__texto {
+    padding: 0% 10% 0% 0%; 
+    font-size: 1.2rem;
+    color: bisque;
+}
+
+.experiencia {
+    padding: 15% 15% 25% 15%;
+}
+
+.rodape{
+    display: flex;
+    justify-content: flex-end;
+    background-color: black;
+    color: #22D4FD;
+    padding: 20px; 
+    justify-content: center;
+
+}
+
+
+
+/* Responvidade */
+
+ @media(max-width: 600px ){  /* Se for MENOR que 600px, aja aasim */
+    .apresentacao__conteudo__texto{
+        color: purple;
+    }
+}
+
