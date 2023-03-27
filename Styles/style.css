@@ -139,7 +139,17 @@ body{
 }
 
 .experiencia {
-    padding: 15% 15% 25% 15%;
+    padding: 15% 35% 25% 35%;
+}
+
+
+.projetos {
+    margin: 0% 0% 35% 20%;
+}
+
+
+.contato {
+    margin: 0% 0% 35% 20%;
 }
 
 .rodape{
