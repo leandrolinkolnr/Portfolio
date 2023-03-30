@@ -137,19 +137,26 @@ body{
     margin-top: 27%;
     margin-left: 3%;
     gap: 25px;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
 
 }
 
-.ri-github-line{
+.ri-github-line {
     text-decoration: none;
     color: #9db0fd;
-
 }
 
-.ri-linkedin-fill{
+.ri-github-line:hover {
+    color: #64FFDA;
+}
+
+.ri-linkedin-fill {
     text-decoration: none;
     color: #9db0fd;
+}
+
+.ri-linkedin-fill:hover {
+    color: #64FFDA;
 }
 
 .ri-instagram-line{
@@ -157,9 +164,18 @@ body{
     color: #9db0fd;
 }
 
+.ri-instagram-line:hover{
+    color: #64FFDA;
+}
+
+
 .ri-facebook-fill{
     text-decoration: none;
     color: #9db0fd;
+}
+
+.ri-facebook-fill:hover{
+    color: #64FFDA;
 }
 
 
