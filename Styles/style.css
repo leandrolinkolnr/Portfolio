@@ -82,7 +82,7 @@ body{
 
 .apresentacao{
     /* margin: 10% 15%; */
-    padding: 11% 7% 25% 15%;
+    padding: 11% 7% 25% 17%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -124,6 +124,55 @@ body{
     width: 8%;
     padding: 0 10px;
 }
+
+
+
+
+
+
+.navLateral{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-top: 27%;
+    margin-left: 3%;
+    gap: 25px;
+    font-size: 1.2rem;
+
+}
+
+.ri-github-line{
+    text-decoration: none;
+    color: #9db0fd;
+
+}
+
+.ri-linkedin-fill{
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+.ri-instagram-line{
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+.ri-facebook-fill{
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .conteudo__about {
