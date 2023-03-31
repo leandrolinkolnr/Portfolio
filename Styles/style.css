@@ -82,7 +82,7 @@ body{
 
 .apresentacao{
     /* margin: 10% 15%; */
-    padding: 11% 7% 25% 17%;
+    padding: 10% 7% 25% 17%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -121,7 +121,7 @@ body{
 }
 
 .images_tech {
-    width: 8%;
+    width: 7%;
     padding: 0 10px;
 }
 
@@ -233,9 +233,24 @@ body{
 }
 
 .experiencia {
-    padding: 10% 25% 15% 25%;
+    margin: 15% 35% 35% 25%;
+    font-family: 'Comic Neue', cursive;
 }
 
+.experiencia__titulo {
+    margin-left: 7%;
+}
+
+h6 {
+    margin-left: 7%;
+    color: #8892B0;
+}
+
+.experiencia__texto {
+    margin-left: 7%;
+    font-size: 1rem;
+    color: #8892B0;
+}
 
 .projetos {
     margin: 0% 0% 35% 15%;
@@ -249,8 +264,7 @@ body{
 .rodape{
     display: flex;
     justify-content: flex-end;
-    background-color: #0a192f;
-    color: #73e5ff;
+    color: #64FFDA;
     padding: 20px; 
     justify-content: center;
 
