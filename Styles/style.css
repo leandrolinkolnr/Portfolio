@@ -233,32 +233,104 @@ body{
 }
 
 .experiencia {
-    margin: 15% 35% 35% 25%;
+    margin: 15% 35% 35% 20%;
     font-family: 'Comic Neue', cursive;
 }
 
 .experiencia__titulo {
-    margin-left: 7%;
+    margin-top: 10%;
+    margin-left: 10%;
 }
 
 h6 {
-    margin-left: 7%;
+    margin-left: 10%;
     color: #8892B0;
 }
 
 .experiencia__texto {
-    margin-left: 7%;
+    margin-left: 10%;
     font-size: 1rem;
     color: #8892B0;
 }
 
-.projetos {
-    margin: 0% 0% 35% 15%;
+.projetosH1 {
+    margin: 0% 5% 8% 15%;
+    padding-top: 7%;
+}
+
+/* .projetos_section {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25%;
+}
+
+.projetos__imagem {
+    width: 35%;
+    margin-left: 15%;
+}
+
+.projetos__descrição{
+    margin-top: 20%;
+    color: purple;
+} */
+
+.projetos_section {
+    display: inline-block;
+    position: relative;
+    font-family: 'Calibre', sans-serif;
+} 
+
+.projetos__imagem {
+    filter: blur(5px);
+    filter: brightness(0.4);
+
+    width: 45%;
+    margin-left: 17%;
+}
+
+.projetos__imagem:hover {
+    filter: none;
+}
+
+.projetos__titulo {
+    font-family: 'Fira Code', monospace;
+    color: #64FFDA;
+    font-size: 1.1rem;
+    position: absolute;
+    top: 5%;
+    right: 15%;
+    left: 67%;
+}
+
+.projetos__descrição{
+    background-color: #15294b;
+    position: absolute;
+    font-size: 1rem;
+    /* text-align: justify; */
+    top: 30%;
+    right: 10%;
+    left: 55%;
+    color: #8892B0;
+    padding: 1.5% 1.5% 1.5% 1.5% ;
 }
 
 
+.projetos__listaTechs {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8rem;
+    position: absolute;
+    color: #8892B0;
+    top: 72%;
+    right: 10%;
+    left: 70%;
+}
+
+.projetos_section, ri-github-line {
+    color: purple;
+}
+
 .contato {
-    margin: 0% 0% 35% 15%;
+    margin: 25% 0% 35% 15%;
 }
 
 .rodape{
