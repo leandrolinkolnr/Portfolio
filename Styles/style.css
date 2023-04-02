@@ -290,8 +290,8 @@ h6 {
 
 
 .projetos__imagem {
-    filter: blur(5px);
-    filter: brightness(0.4); 
+    /* filter: blur(55px); */
+    filter: brightness(0.3); 
     position: relative;
     width: 55%;
 }
@@ -307,11 +307,11 @@ h6 {
 .projetos__tituloA {
     font-family: 'Fira Code', monospace;
     color: #64FFDA;
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     position: absolute;
     top: 10%;
-    right: 15%;
-    left: 55%; }
+    right: 0%;
+    left: 58%; }
         /*               PROJETOS TITULOS NAO CONSEGUIII */
 
 
@@ -374,8 +374,8 @@ h6 {
 } 
 
 .projetos__imagemB {
-    filter: blur(5px);
-    filter: brightness(0.4);
+    /* filter: blur(5px); */
+    filter: brightness(0.3);
     position: relative;
 
     left: 20%;
