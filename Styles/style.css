@@ -77,12 +77,11 @@ body{
 .titulo-destaque{
     color: #CCD6F6;
     font-size: 3.5rem;
-
 }
 
 .apresentacao{
     /* margin: 10% 15%; */
-    padding: 10% 7% 25% 17%;
+    padding: 10% 7% 25% 22%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -111,7 +110,7 @@ body{
     font-size: 1.2rem;
     font-family: 'Calibre', sans-serif;
     color: #8892B0;
-    padding: 5% 0% 10% 0% ;
+    padding: 5% 0% 10% 0%;
 }
 
 .apresentacao__images {
@@ -184,35 +183,35 @@ body{
 
 
 
+/* ============ ABOUT ============= */
 
 
 
-
-
+.about__titulo {
+    padding: 4% 20% 0% 28%;
+    color: #CCD6F6;
+}
 
 
 .conteudo__about {
     /* padding: 0% 20% 15% 15%; */
-    margin: 2% 30% 0% 15%;
+    margin: 2% 29% 0% 28%;
 
     display: flex;
     align-items: flex-start;
-    justify-content: center;  
+    justify-content: center;
 
     font-family: 'Comic Neue', cursive;
 }
 
-.about__titulo {
-    padding: 4% 20% 0% 15%;
-    color: #CCD6F6;
-}
+
 
 .about__texto {
     /* padding: 0% 20% 0% 10%;  */
-    margin: 0% 8% 0% 0%;
+    margin: 0% 10% 5% 0%;
     font-size: 1rem;
     color: #8892B0;
-
+    text-align: justify;
     display: flex;
     flex-direction: column;
 }
@@ -232,54 +231,56 @@ body{
     
 }
 
-.experiencia {
-    margin: 15% 35% 35% 20%;
+
+
+/* ========= EXPERIENCIA =========== */
+
+
+.categoria__experiencia{
+    margin-top: 9%;
+    margin-left: 33%;
+}
+
+
+.experienciaSection {
+    margin: 0% 35% 21% 20%;
     font-family: 'Comic Neue', cursive;
 }
 
 .experiencia__titulo {
     margin-top: 10%;
-    margin-left: 10%;
+    margin-left: 40%;
 }
 
+
 h6 {
-    margin-left: 10%;
+    margin-left: 40%;
     color: #8892B0;
 }
 
 .experiencia__texto {
-    margin-left: 10%;
+    margin-left: 40%;
+    margin-right: 0%;
     font-size: 1rem;
     color: #8892B0;
 }
 
+
+
+/* ============= PROJETOS ========== */
+
 .projetosH1 {
-    margin: 0% 5% 8% 25%;
-    padding-top: 7%;
+    margin: 0% 5% 5% 26%;
+    padding-top: 0%;
+    font-family: 'Calibre', sans-serif;
 }
-
-/* .projetos_section {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 25%;
-}
-
-.projetos__imagem {
-    width: 35%;
-    margin-left: 15%;
-}
-
-.projetos__descrição{
-    margin-top: 20%;
-    color: purple;
-} */
 
 
 .projetos_section {
     display: inline-block;
     position: relative;
     font-family: 'Calibre', sans-serif;
-    margin: 0% 0% 8% 20%;
+    margin: 0% 0% 8% 26%;
 }
 
 
@@ -293,7 +294,7 @@ h6 {
     /* filter: blur(55px); */
     filter: brightness(0.3); 
     position: relative;
-    width: 55%;
+    width: 45%;
 }
 
 .projetos__imagem .A {
@@ -311,7 +312,7 @@ h6 {
     position: absolute;
     top: 10%;
     right: 0%;
-    left: 58%; }
+    left: 60.5%; }
         /*               PROJETOS TITULOS NAO CONSEGUIII */
 
 
@@ -323,10 +324,10 @@ h6 {
     font-size: 1rem;
     /* text-align: justify; */
     top: 30%;
-    right: 25%;
-    left: 45%;
+    right: 22%;
+    left: 39%;
     color: #8892B0;
-    padding: 1% 1% 1% 1% ;
+    padding: 2% 1.5% 1.5% 2% ;
 }
 
 
@@ -335,16 +336,16 @@ h6 {
     font-size: 0.8rem;
     position: absolute;
     color: #8892B0;
-    top: 66%;
+    top: 70%;
     right: 15%;
-    left: 59.3%;
+    left: 62.2%;
 }
 
 .projetos__atalhosA{
     width: 15%;
-    top: 80%;
+    top: 85%;
     position: absolute;
-    right: 75%;
+    right: 71.5%;
 }
 
 
@@ -379,7 +380,7 @@ h6 {
     position: relative;
 
     left: 20%;
-    width: 55%;
+    width: 45%;
 }
 
 .projetos__imagemB:hover {
