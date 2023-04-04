@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portifolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./Styles/style.css">
 </head>
 
@@ -33,21 +33,26 @@
 
 
 
-    <!-- ================= NAV LATERAL ==================== -->
+    <!-- ================= NAV LATERAL ESQUERDA ==================== -->
 
 
-    <nav class="navLateral">
+    <nav class="navLateral-l">
         <a class="ri-github-line"  href="https://github.com/leandrolinkolnr" target="_blank"></a>
         <a class="ri-linkedin-fill" href="https://www.linkedin.com/in/leandrolincoln" target="_blank"></a>
         <a class="ri-instagram-line" href="https://www.instagram.com/leandrolinkoln/" target="_blank"></a>
         <a class="ri-facebook-fill" href="https://www.facebook.com/leandro.linkoln" target="_blank"></a>
-        <p>|</p>
-        <p>|</p>
-        <p>|</p>
+        
+        <div id="linha-vertical-l"></div>
 
     </nav>
 
 
+    <!-- ================= NAV LATERAL DIREITA ==================== -->
+
+    <nav class="navLateral-r">
+        <a class="navLateral-r__email" href="mailto:leandrolinkoln13@gmail.com?" target="_blank">leandrolinkoln13@gmail.com</a>
+        <div id="linha-vertical-r"></div>
+    </nav>
 
 
 <!-- ================= APRESENTAÇÃO PRINCIPAL ==================== -->
@@ -78,7 +83,7 @@
     <!-- ================= ABOUT ==================== -->
 
 
-        <h1 id="about" class="about__titulo">About.me  _____________________________</h1>
+        <h1 id="about" class="about__titulo">01. About.me  _____________________________</h1>
         <section class="conteudo__about"> 
         <xxx class="about__texto">
             
@@ -112,16 +117,16 @@
     <!-- ================= EXPERIENCIA ==================== -->
 
 
-    <h1 class="categoria__experiencia">Experiência  _____________________</h1>
+    <h1 id="experiencia" class="categoria__experiencia">Experiência  _____________________</h1>
 
-    <section id="experiencia" class="experienciaSection"> 
+    <section class="experienciaSection"> 
         <h3 class="experiencia__titulo"> Desenvolvedor front end</h3>
             <h6> Set 2022 - Mar 2023</h6>
         <br />
         <br />
         <p class="experiencia__texto"> Desenvolvedor web no Núcleo de Tecnologias Estratégicas em Saúde (NUTES),
             contribuindo como desenvolvedor front-end nos sistemas da Secretaria de Estado da Fazenda (Sefaz-PB), 
-            mais especificamente no Gostex: Gerenciador de notas fiscais dos postos de combustiveis da paraiba.
+            mais especificamente na Gerência Operacional de Fiscalização da Substituição Tributária e Comércio Exterior (GOSTEX).
         </p>
     </section>
 
@@ -138,7 +143,7 @@
     <section  class="projetos_section A"> 
         <p class="projetos__tituloA"> Cronômetro de estudos</p>
         <a href="https://alura-studies-rust.vercel.app" target="_blank"> 
-             <img class="projetos__imagem A" src="./assets/projetos/cronometro de estudos.JPG"> </a>
+             <img class="projetos__imagem A" src="./assets/projetos/cronometro de estudos.PNG"> </a>
         <p class="projetos__descriçãoA"> Esse gerenciador permite criar uma tarefa, atrubui-la um tempo e
             adiciona-la a lista. Para iniciar a tarefa, basta seleciona-la e clicar
             em 'começar'. Dessa forma, será iniciado o cronômetro com o tempo correspondente.</p>
@@ -163,7 +168,7 @@
     <section  class="projetos_section B"> 
         <p class="projetos__tituloB"> Cadastro de produtos</p>
         <a href="https://project-angular-ashen.vercel.app" target="_blank"> 
-             <img src="./assets/projetos/angular.JPG" class="projetos__imagemB" > </a>
+             <img src="./assets/projetos/angular.PNG" class="projetos__imagemB" > </a>
         <p class="projetos__descriçãoB"> A aplicação permite criar uma tarefa, atrubui-la um tempo e
             adiciona-la a lista. Para iniciar a tarefa, basta seleciona-la e clicar
             em 'começar'. Dessa forma, será iniciado o cronômetro com o tempo correspondente.</p>
@@ -189,7 +194,7 @@
        <section  class="projetos_section A"> 
         <p class="projetos__tituloA"> Cards: React & Redux </p>
         <a href="https://projeto-react-com-redux.vercel.app" target="_blank"> 
-             <img class="projetos__imagem A" src="./assets/projetos/cards_react_redux.JPG"> </a>
+             <img class="projetos__imagem A" src="./assets/projetos/cards_react_redux.PNG"> </a>
         <p class="projetos__descriçãoA"> Esta aplicação consiste em cards com informações que são
             apresentadas de acordo com os numeros escolhidos. Foi um simples exercicio
             que auxiliou no entendimento do Redux:  Uma poderosa biblioteca gerenciadora de estados.
@@ -235,8 +240,15 @@
 
      <!-- ================= CONTATO ==================== -->
 
-    <section id="contato" class="contato"> 
-        <h1 id="dois">Contate-me  _____________________</h1>
+    <section id="contato" class="contato__section"> 
+        <p id="dois" class="contato__titulo">Qual o proximo?</p>
+        <h1 class="contato__h1"> Entrar  em  contato</h1>
+        <div class="contato__icons">
+            <a href="https://wa.me/5583981936185" target="_blank"> 
+            <img  src="./assets/whatsapp.png" > </a>
+            <a href="mailto:leandrolinkoln13@gmail.com?" target="_blank"> 
+                <img  src="./assets/email.png" > </a>
+        </div>
     </section>
 
 

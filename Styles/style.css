@@ -43,7 +43,7 @@
   
 
 .cabecalho__menu__link {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     color: #CCD6F6;
     text-decoration: none;
     display: flex;
@@ -126,16 +126,16 @@ body{
 
 
 
+/* ============ NAV LATERAL LEFT ============= */
 
 
-
-.navLateral{
+.navLateral-l{
     display: flex;
     flex-direction: column;
     position: fixed;
-    margin-top: 27%;
+    margin-top: 30%;
     margin-left: 3%;
-    gap: 25px;
+    gap: 30px;
     font-size: 1.3rem;
 
 }
@@ -177,6 +177,55 @@ body{
     color: #64FFDA;
 }
 
+#linha-vertical-l {
+    height: 200px;
+    border-right: 1px solid #CCD6F6;
+    position: fixed;
+    margin-top: 11%;
+    margin-left: 0.5%;
+}
+
+
+
+
+
+/* ============ NAV LATERAL RIGHT ============= */
+
+.navLateral-R{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    /* margin-top: 90%; */
+    margin-left: 35%;
+    gap: 25px;
+    font-size: 1.3rem;
+}
+
+.navLateral-r__email{
+    position: fixed;
+    margin-left: 91%;
+    margin-top: 33.7%;
+    transform: rotate(90deg);
+    color: #86a0f5;
+    font-size: 0.8rem;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+}
+
+.navLateral-r__email:hover{
+
+    color: #64FFDA;
+
+}
+
+#linha-vertical-r {
+    height: 200px;
+    border-right: 1px solid #CCD6F6;
+    position: fixed;
+    margin-top: 41.1%;
+    margin-left: 96.8%;
+}
+
 
 
 
@@ -188,14 +237,14 @@ body{
 
 
 .about__titulo {
-    padding: 4% 20% 0% 28%;
+    padding: 6% 20% 0% 26%;
     color: #CCD6F6;
 }
 
 
 .conteudo__about {
     /* padding: 0% 20% 15% 15%; */
-    margin: 2% 29% 0% 28%;
+    margin: 2% 27% 0% 26%;
 
     display: flex;
     align-items: flex-start;
@@ -223,11 +272,15 @@ body{
 .about__lista {
     display: flex;
     flex-direction: row; 
-    /* margin: 0% 0% 0% 0%; */
+    margin-left: 4%;
+    gap: 33px;
+    list-style:url('../assets/marcador.PNG')
+
 }
 
 .about__lista__item {
     margin: 10% 5% 0% 0%;
+    
     
 }
 
@@ -237,7 +290,8 @@ body{
 
 
 .categoria__experiencia{
-    margin-top: 9%;
+    margin-top: 0%;
+    padding-top: 14%;
     margin-left: 33%;
 }
 
@@ -271,7 +325,7 @@ h6 {
 
 .projetosH1 {
     margin: 0% 5% 5% 26%;
-    padding-top: 0%;
+    padding-top: 10%;
     font-family: 'Calibre', sans-serif;
 }
 
@@ -367,7 +421,7 @@ h6 {
 
 
 
-/* ============================================================= */
+/* ================ PROJETOS ========================== */
 
 
 .projetos_section .B {
@@ -379,7 +433,7 @@ h6 {
     filter: brightness(0.3);
     position: relative;
 
-    left: 20%;
+    left: 33%;
     width: 45%;
 }
 
@@ -404,7 +458,7 @@ h6 {
     font-size: 1rem;
     /* text-align: justify; */
     top: 30%;
-    right: 70%;
+    right: 61.5%;
     left: 0%;
     color: #8892B0;
     padding: 1.5% 1.5% 1.5% 1.5% ;
@@ -446,12 +500,45 @@ h6 {
 
 
 
-/* ============================================== */
+/* ================ CONTATO ===================== */
 
 
-.contato {
-    margin: 25% 0% 35% 15%;
+.contato__section {
+    /* margin: 35% 25% 55% 35%; */
+    margin-top: 5%;
+    margin-left: 36.5%;
+    margin-right: 35%;
+    margin-bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
+
+.contato__titulo{
+    margin-bottom: 3%;
+    color: #64FFDA;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem; 
+}
+
+.contato__h1 {
+    letter-spacing: 3.5px;
+    font-family: 'Calibre', sans-serif;
+    color: #8892B0;
+}
+
+.contato__icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    gap: 27px;
+}
+
+
+
+/* ============= RODAPE ==================== */
 
 .rodape{
     display: flex;
