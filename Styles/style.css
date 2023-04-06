@@ -3,11 +3,15 @@
 @import url('https://fonts.cdnfonts.com/css/calibre');
 
 
-
-*{
+* {
     margin: 0;
     padding: 0;
+    /* scroll-behavior: smooth; */
 }
+
+
+    
+
 
 .cabecalho{
     width: 100%;
@@ -322,16 +326,12 @@ h6 {
     margin: 0% 0% 8% 26%;
 }
 
+
 .projetos__imagem {
-    /* filter: blur(55px); */
-    filter: brightness(0.3); 
-    position: relative;
+    filter: brightness(0.4); 
     width: 45%;
 }
 
-.projetos__imagem .A {
-    /* top: 50%; */
-}
 
 .projetos__imagem:hover {
     filter: none;
@@ -351,31 +351,37 @@ h6 {
     left: 60.6%; 
  }
         
-
-
-
-.projetos__descriçãoA{
+ .projetos__descrição{
     background-color: #15294b;
     border-radius: 5px;
-    position: absolute;
     font-size: 1rem;
+    color: #8892B0;
+}
+
+
+.projetos__descrição .A{
+    position: absolute;
     top: 30%;
     right: 22%;
     left: 39%;
-    color: #8892B0;
     padding: 2% 1.5% 1.5% 2% ;
 }
 
 
-.projetos__listaTechsA {
+.projetos__listaTechs {
     font-family: 'Fira Code', monospace;
     font-size: 0.8rem;
-    position: absolute;
     color: #8892B0;
+}
+
+
+.projetos__listaTechs .A {
+    position: absolute;
     top: 70%;
     right: 15%;
     left: 62.2%;
 }
+
 
 .projetos__atalhosA{
     width: 15%;
@@ -406,18 +412,12 @@ h6 {
 /* ================ PROJETOS ========================== */
 
 
-.projetos__imagemB {
-    /* filter: blur(5px); */
-    filter: brightness(0.3);
-    position: relative;
-
+.projetos__imagem .B {
+    position: relative; 
+    top: 50%;
     left: 33%;
-    width: 45%;
 }
 
-.projetos__imagemB:hover {
-    filter: none;
-}
 
 .projetos__titulo B {
     position: absolute; 
@@ -426,25 +426,18 @@ h6 {
     left: 0%;
 }
 
-.projetos__descriçãoB{
-    background-color: #15294b;
-    border-radius: 5px;
+
+.projetos__descrição .B{
     position: absolute;
-    font-size: 1rem;
-    /* text-align: justify; */
     top: 30%;
     right: 61.5%;
     left: 0%;
-    color: #8892B0;
     padding: 1.5% 1.5% 1.5% 1.5% ;
 }
 
 
-.projetos__listaTechsB {
-    font-family: 'Fira Code', monospace;
-    font-size: 0.8rem;
+.projetos__listaTechs .B {
     position: absolute;
-    color: #8892B0;
     top: 66%;
     right: 59.3%;
     left: 0%;
