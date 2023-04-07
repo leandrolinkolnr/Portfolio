@@ -10,9 +10,6 @@
 }
 
 
-    
-
-
 .cabecalho{
     width: 100%;
     padding-top: 0.3%;
@@ -140,6 +137,7 @@ body{
 }
 
 .ri-github-line:hover {
+    transform: scale(1.2);
     color: #64FFDA;
 }
 
@@ -149,6 +147,7 @@ body{
 }
 
 .ri-linkedin-fill:hover {
+    transform: scale(1.2);
     color: #64FFDA;
 }
 
@@ -158,6 +157,7 @@ body{
 }
 
 .ri-instagram-line:hover{
+    transform: scale(1.2);
     color: #64FFDA;
 }
 
@@ -168,6 +168,7 @@ body{
 }
 
 .ri-facebook-fill:hover{
+    transform: scale(1.2);
     color: #64FFDA;
 }
 
@@ -538,6 +539,10 @@ h6 {
     gap: 27px;
 }
 
+.contato__icone:hover {
+    transform: scale(1.15);
+}
+
 
 
 /* ============= RODAPE ==================== */
@@ -572,4 +577,3 @@ h6 {
         color: purple;
     }
 }
-
