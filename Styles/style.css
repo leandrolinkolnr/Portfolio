@@ -231,7 +231,7 @@ body{
 
 
 .about__titulo {
-    padding: 6% 20% 0% 26%;
+    padding: 6% 50% 0% 26%;
     color: #CCD6F6;
     font-family: calibri;
     font-size: 1.5rem;
@@ -243,19 +243,21 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    font-family: calibre;
-
-    
+    font-family: calibre; 
 }
 
 
 .about__texto {
-    margin: 0% 10% 5% 0%;
+    margin: 0% 8% 55% 0%;
     font-size: 1rem;
     color: #8892B0;
     text-align: justify;
     display: flex;
     flex-direction: column;
+}
+
+.paragrafo {
+    margin-bottom: 3%;
 }
 
 .about__lista {
@@ -267,7 +269,7 @@ body{
 }
 
 .about__lista__item {
-    margin: 10% 5% 0% 0%;   
+    margin: 0% 5% 0% 0%;   
 }
 
 
@@ -285,7 +287,7 @@ body{
 
 .linha-horizontal__experiencia {
     width: 22%;
-    border: 0.  1rem solid #152e53;
+    border: 0.1rem solid #152e53;
     margin-left: 42%;
     position: relative;
 }
@@ -551,9 +553,127 @@ h6 {
 
 /* Responvidade */
 
- @media(max-width: 600px ){  /* Se for MENOR que 600px, aja assim */
-    .apresentacao__conteudo__texto{
-        color: purple;
+ @media(max-width: 800px ){  /* Se largura for MENOR que 800px, aja assim */
+    /* .apresentacao__conteudo__texto{
+        visibility: hidden;
+    } */
+
+
+    .navLateral-l {
+        visibility: hidden;
+    
     }
+    .navLateral-r{
+        visibility: hidden;
+}
+    .apresentacao {
+        margin-top: 45%;
+        padding-left: 7%;
+        margin-bottom: 70%;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+
+    .apresentacao__conteudo__firstLine {
+        font-size: 16px;
+    }
+
+    .titulo-destaque{
+        font-size: 2.5rem;
+    }
+
+    .images_tech {
+        width: 10%;
+        padding: 0 2%;
+    }
+
+    
+    .conteudo__about {
+    }
+
+    .about__titulo {
+
+    }
+
+    .about__titulo {
+        padding-left: 7%;
+        /* margin-right: 10%; */
+    }
+
+    .linha-horizontal {
+        width: 45%;
+        margin-left: 43%;
+    }
+
+    .paragrafo {
+        margin-top: 10%;
+    }
+
+    .conteudo__about {
+        margin: 2% 0% 0% 7%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__texto {
+        margin-bottom: 25%;
+        font-size: 18px
+        
+    }   
+
+    .about__lista {
+        display: grid;
+        grid-template-columns: 82px 82px 82px 82px;
+        }
+
+    .about__img {
+        margin-bottom: 25%;
+    }
+
+    .categoria__experiencia{
+        margin-left: 7%;
+    }
+
+   
+    .linha-horizontal__experiencia {
+        width: 45%;
+        margin-left: 47%;
+    }
+
+    .experienciaSection {
+        margin-left: 17%;
+    }
+
+    .experiencia__titulo {
+        margin-top: 25%;
+        font-size: 1rem;
+        margin-left: 0%;
+    }
+
+    h6 {
+        margin-left: 0%;    
+    }
+
+    .experiencia__texto {
+        margin-left: 0%;
+    }
+
+
+
+
+
+
+
+    .cabecalho {
+        visibility: hidden;
+    }
+
+    .projetos_section {
+        visibility: hidden;
+    }
+    
 }
 
