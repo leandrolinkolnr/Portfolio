@@ -554,10 +554,10 @@ h6 {
 /* Responvidade */
 
  @media(max-width: 800px ){  /* Se largura for MENOR que 800px, aja assim */
-    /* .apresentacao__conteudo__texto{
-        visibility: hidden;
-    } */
 
+    .cabecalho {
+        visibility: hidden;
+    }
 
     .navLateral-l {
         visibility: hidden;
@@ -568,7 +568,7 @@ h6 {
 }
     .apresentacao {
         margin-top: 45%;
-        padding-left: 7%;
+        padding-left: 8%;
         margin-bottom: 70%;
     }
 
@@ -589,17 +589,8 @@ h6 {
         padding: 0 2%;
     }
 
-    
-    .conteudo__about {
-    }
-
     .about__titulo {
-
-    }
-
-    .about__titulo {
-        padding-left: 7%;
-        /* margin-right: 10%; */
+        padding-left: 8%;
     }
 
     .linha-horizontal {
@@ -633,18 +624,24 @@ h6 {
         margin-bottom: 25%;
     }
 
-    .categoria__experiencia{
-        margin-left: 7%;
+     .categoria__experiencia{
+        margin-left: 8%;
+    }
+    
+    
+    .experienciaSection {
+        margin: 0% 15% 21% 0%;
     }
 
    
     .linha-horizontal__experiencia {
-        width: 45%;
+        width: 38.5%;
         margin-left: 47%;
     }
 
     .experienciaSection {
         margin-left: 17%;
+        margin-bottom: 35%;
     }
 
     .experiencia__titulo {
@@ -658,22 +655,111 @@ h6 {
     }
 
     .experiencia__texto {
+        text-align: justify;
         margin-left: 0%;
     }
 
 
 
-
-
-
-
-    .cabecalho {
-        visibility: hidden;
+    .contato__section {
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 25%;
     }
 
-    .projetos_section {
-        visibility: hidden;
-    }
+
+ .projetosH1 {
+    margin-left: 8%;
+}
+
+.linha-horizontal__projetos {
+    width: 50%;
+    margin-left: 35%;
+}
+
+
+.projetos_section {
+    margin-top: 17%;
+    margin-left: 8%;
+    margin-bottom: 45%;
+}
+
+.projetos__imagem {
+    visibility: hidden;
+}
+
+ .projetos__titulo .A { 
+    left: 13%; 
+ }
+
+ .projetos__descrição{
+    text-align: justify;
+}
+
+
+.projetos__descrição .A{
+    right: 11%;
+    left: 3%;
+    padding: 6% 6% 6% 6% ;
+}
+
+.projetos__descrição .B{
+    right: 11%;
+    left: 3%;
+    padding: 6% 6% 6% 6% ;
+}
+
+.projetos__listaTechs {
+    margin-top: 24%;
     
+}
+
+.projetos__listaTechs .A {
+    right: 15%;
+    left: 3.5%;
+}
+
+.projetos__listaTechs .B {
+    margin-top: 26%;
+    right: 15%;
+    left: 3.5%;
+}
+
+.projetos__atalhosA{
+    width: 25%;
+    top: 110%;
+    right: 98%;
+}
+
+.projetos__atalhosA .vercelA{
+    left: 415%; 
+}
+
+
+.projetos__atalhosA .githubA {
+    left: 375%; 
+}
+
+.projetos__atalhosB{
+    width: 25%;
+    top: 104%;
+    right: 98%;
+}
+
+.projetos__atalhosB .vercelB{
+    left: 415%; 
+}
+
+
+.projetos__atalhosB .githubB {
+    left: 375%; 
+}
+
+
+.rodape{
+    margin-bottom: 5%;
+    font-size: 80%;
+}
+
 }
 
