@@ -617,7 +617,7 @@ h6 {
 
     .about__lista {
         display: grid;
-        grid-template-columns: 82px 82px 82px 82px;
+        grid-template-columns: 72px 72px 72px 72px;
         }
 
     .about__img {
