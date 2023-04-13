@@ -14,7 +14,6 @@
     padding-top: 0.3%;
     padding-bottom: 1%;
     background-color:#0a192f ;
-    
 }
 
 .cabecalho__menu{
@@ -384,6 +383,14 @@ h6 {
     padding: 2% 1.5% 1.5% 2% ;
 }
 
+/* .projetos__descrição .B {
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    left: 9%;
+    padding: 2% 1.5% 1.5% 2% ;
+} */
+
 
 .projetos__listaTechs {
     font-family: 'Fira Code', monospace;
@@ -551,9 +558,13 @@ h6 {
 }
 
 
-/* Responvidade */
 
- @media(max-width: 800px ){  /* Se largura for MENOR que 800px, aja assim */
+
+
+
+/* ============ Responvidade ============ */
+
+ @media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
 
     .cabecalho {
         display: none;
@@ -568,7 +579,7 @@ h6 {
 }
     .apresentacao {
         margin-top: 45%;
-        padding-left: 8%;
+        padding-left: 10%;
         margin-bottom: 70%;
     }
 
@@ -590,7 +601,7 @@ h6 {
     }
 
     .about__titulo {
-        padding-left: 8%;
+        padding-left: 10%;
     }
 
     .linha-horizontal {
@@ -599,11 +610,11 @@ h6 {
     }
 
     .paragrafo {
-        margin-top: 10%;
+        margin-top: 9%;
     }
 
     .conteudo__about {
-        margin: 2% 0% 0% 7%;
+        margin: 2% 3% 0% 1%;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -611,21 +622,30 @@ h6 {
 
     .about__texto {
         margin-bottom: 25%;
+        margin-left: 10%;
         font-size: 18px
         
     }   
 
     .about__lista {
         display: grid;
-        grid-template-columns: 72px 72px 72px 72px;
+        grid-template-columns: 75px 75px 75px 75px;
+        list-style:url('../assets/marcador2.PNG')
         }
+
+    .about__lista__item{
+        margin-bottom: 15%;
+        font-size: 1rem;
+    }
 
     .about__img {
         margin-bottom: 25%;
     }
 
+    
+
      .categoria__experiencia{
-        margin-left: 8%;
+        margin-left: 10%;
     }
     
     
@@ -640,7 +660,7 @@ h6 {
     }
 
     .experienciaSection {
-        margin-left: 17%;
+        margin-left: 19%;
         margin-bottom: 35%;
     }
 
@@ -668,97 +688,103 @@ h6 {
     }
 
 
- .projetosH1 {
-    margin-left: 8%;
-}
+    .projetosH1 {
+        margin-left: 10%;
+    }
 
-.linha-horizontal__projetos {
-    width: 50%;
-    margin-left: 35%;
-}
-
-
-.projetos_section {
-    margin-top: 17%;
-    margin-left: 8%;
-    margin-bottom: 45%;
-}
-
-.projetos__imagem {
-    display: none; }
-
- .projetos__titulo .A { 
-    left: 13%; 
- }
-
- .projetos__descrição{
-    text-align: justify;
-}
+    .linha-horizontal__projetos {
+        width: 50%;
+        margin-left: 35%;
+    }
 
 
-.projetos__descrição .A{
-    right: 11%;
-    left: 3%;
-    padding: 6% 6% 6% 6% ;
-}
+    /* .projetos_section {
+        margin-top: 17%;
+        margin-left: 8%;
+        margin-bottom: 45%;
+    }
 
-.projetos__descrição .B{
-    right: 11%;
-    left: 3%;
-    padding: 6% 6% 6% 6% ;
-}
+    .projetos__imagem {
+        display: none; }
 
-.projetos__listaTechs {
-    margin-top: 24%;
     
-}
+    .projetos__imagem .B {
+        display: none;
+    }
 
-.projetos__listaTechs .A {
-    right: 15%;
-    left: 3.5%;
-}
+    .projetos__titulo .A { 
+        left: 13%; 
+    }
 
-.projetos__listaTechs .B {
-    margin-top: 26%;
-    right: 15%;
-    left: 3.5%;
-}
-
-.projetos__atalhosA{
-    width: 25%;
-    top: 110%;
-    right: 98%;
-}
-
-.projetos__atalhosA .vercelA{
-    left: 415%; 
-}
+    .projetos__descrição{
+        text-align: justify;
+    }
 
 
-.projetos__atalhosA .githubA {
-    left: 375%; 
-}
+    
+    .projetos__descrição .A{
+        right: 11%;
+        left: 3%;
+        padding: 6% 6% 6% 6% ;
+    }
 
-.projetos__atalhosB{
-    width: 25%;
-    top: 104%;
-    right: 98%;
-}
+    .projetos__descrição .B{
+        right: 11%;
+        left: 3%;
+        padding: 6% 6% 6% 6% ;
+    } 
 
-.projetos__atalhosB .vercelB{
-    left: 415%; 
-}
+    .projetos__listaTechs {
+        margin-top: 24%;
+        
+    }
+
+    .projetos__listaTechs .A {
+        right: 15%;
+        left: 3.5%;
+    }
+
+    .projetos__listaTechs .B {
+        margin-top: 26%;
+        right: 15%;
+        left: 3.5%;
+    }
+
+    .projetos__atalhosA{
+        width: 25%;
+        top: 110%;
+        right: 98%;
+    }
+
+    .projetos__atalhosA .vercelA{
+        left: 415%; 
+    }
 
 
-.projetos__atalhosB .githubB {
-    left: 375%; 
-}
+    .projetos__atalhosA .githubA {
+        left: 375%; 
+    }
+
+    .projetos__atalhosB{
+        width: 25%;
+        top: 104%;
+        right: 98%;
+    }
+
+    .projetos__atalhosB .vercelB{
+        left: 415%; 
+    }
 
 
-.rodape{
-    margin-bottom: 5%;
-    font-size: 80%;
-}
+    .projetos__atalhosB .githubB {
+        left: 375%; 
+    } */
+
+
+    .rodape{
+        margin-bottom: 5%;
+        font-size: 80%;
+    }
 
 }
 
