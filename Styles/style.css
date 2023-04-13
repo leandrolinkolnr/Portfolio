@@ -556,15 +556,15 @@ h6 {
  @media(max-width: 800px ){  /* Se largura for MENOR que 800px, aja assim */
 
     .cabecalho {
-        visibility: hidden;
+        display: none;
     }
 
     .navLateral-l {
-        visibility: hidden;
+        display: none;
     
     }
     .navLateral-r{
-        visibility: hidden;
+        display: none;
 }
     .apresentacao {
         margin-top: 45%;
@@ -685,8 +685,7 @@ h6 {
 }
 
 .projetos__imagem {
-    visibility: hidden;
-}
+    display: none; }
 
  .projetos__titulo .A { 
     left: 13%; 
