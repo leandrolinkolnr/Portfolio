@@ -323,8 +323,7 @@ h6 {
     margin: 0% 0% 5% 26%;
     padding-top: 10%;
     font-family: calibri;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem; 
 }
 
 .linha-horizontal__projetos {
@@ -635,7 +634,7 @@ h6 {
 
     .about__lista__item{
         margin-bottom: 15%;
-        font-size: 0.85rem;
+        font-size: 0.9rem;
     }
 
     .about__img {
@@ -695,40 +694,43 @@ h6 {
         margin-left: 35%;
     }
 
+    .projetosH1 {
+        margin-left: 10%;
+    }
+
     .projetos_section {
-        display: none;
-    }
-    /* .projetos_section {
         margin-top: 17%;
-        margin-left: 8%;
-        margin-bottom: 45%;
+        margin-left: 10%;
+        margin-bottom: 30%;
     }
 
-    .projetos__imagem {
-        display: none; }
+    .projetos__imagem, .projetos__imagem .B {
+        visibility: hidden; }
 
-    
-    .projetos__imagem .B {
-        display: none;
-    }
 
     .projetos__titulo .A { 
-        left: 13%; 
+        left: 3%; 
+    }
+
+    .projetos__titulo .B{
+        position: relative;
+        left: 3%;
     }
 
     .projetos__descrição{
         text-align: justify;
     }
 
-
     
     .projetos__descrição .A{
+        margin-top: -3%;
         right: 11%;
         left: 3%;
         padding: 6% 6% 6% 6% ;
     }
 
     .projetos__descrição .B{
+        margin-top: -3%;
         right: 11%;
         left: 3%;
         padding: 6% 6% 6% 6% ;
@@ -778,7 +780,7 @@ h6 {
 
     .projetos__atalhosB .githubB {
         left: 375%; 
-    } */
+    }
 
 
     .rodape{
