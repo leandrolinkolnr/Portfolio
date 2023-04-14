@@ -629,13 +629,13 @@ h6 {
 
     .about__lista {
         display: grid;
-        grid-template-columns: 75px 75px 75px 75px;
+        grid-template-columns: 70px 70px 70px 70px;
         list-style:url('../assets/marcador2.PNG')
         }
 
     .about__lista__item{
         margin-bottom: 15%;
-        font-size: 1rem;
+        font-size: 0.85rem;
     }
 
     .about__img {
@@ -643,7 +643,6 @@ h6 {
     }
 
     
-
      .categoria__experiencia{
         margin-left: 10%;
     }
@@ -680,7 +679,6 @@ h6 {
     }
 
 
-
     .contato__section {
         margin-left: 20%;
         margin-right: 20%;
@@ -697,7 +695,9 @@ h6 {
         margin-left: 35%;
     }
 
-
+    .projetos_section {
+        display: none;
+    }
     /* .projetos_section {
         margin-top: 17%;
         margin-left: 8%;
@@ -783,7 +783,7 @@ h6 {
 
     .rodape{
         margin-bottom: 5%;
-        font-size: 80%;
+        font-size: 65%;
     }
 
 }
