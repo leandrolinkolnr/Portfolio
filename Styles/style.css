@@ -600,7 +600,7 @@ h6 {
     }
 
     .about__titulo {
-        padding-left: 10%;
+        padding-left: 9%;
     }
 
     .linha-horizontal {
@@ -621,7 +621,7 @@ h6 {
 
     .about__texto {
         margin-bottom: 25%;
-        margin-left: 10%;
+        margin-left: 9%;
         font-size: 18px
         
     }   
@@ -643,7 +643,7 @@ h6 {
 
     
      .categoria__experiencia{
-        margin-left: 10%;
+        margin-left: 9%;
     }
     
     
@@ -686,7 +686,7 @@ h6 {
 
 
     .projetosH1 {
-        margin-left: 10%;
+        margin-left: 9%;
     }
 
     .linha-horizontal__projetos {
@@ -695,12 +695,12 @@ h6 {
     }
 
     .projetosH1 {
-        margin-left: 10%;
+        margin-left: 9%;
     }
 
     .projetos_section {
         margin-top: 17%;
-        margin-left: 10%;
+        margin-left: 9%;
         margin-bottom: 30%;
     }
 
@@ -782,6 +782,15 @@ h6 {
         left: 375%; 
     }
 
+
+    .contato__section {
+        margin-top: 10%;
+        margin-bottom: 25%;
+    }
+
+    .contato__icons {
+        margin-left: -8%;
+    }
 
     .rodape{
         margin-bottom: 5%;
