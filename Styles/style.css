@@ -21,7 +21,7 @@
     padding-right: 4%;
     font-family: 'Fira Code', monospace;
     display: flex;
-    gap: 1.4%;
+    gap: 1.5%;
     justify-content: flex-end;
 }
   
@@ -46,8 +46,10 @@
 }
 
 .cabecalho__menu__link__resumo:hover {
-    color: #64FFDA;
+    color: #52f79c;
+    border: 0.1rem solid #52f79c;
 }
+
 
 .numero {
     color: #64FFDA;
@@ -119,7 +121,7 @@ body{
     display: flex;
     flex-direction: column;
     position: fixed;
-    margin-top: 30%;
+    margin-top: 33%;
     margin-left: 3%;
     gap: 30px;
     font-size: 1.3rem;
@@ -197,7 +199,7 @@ body{
 .navLateral-r__email{
     position: fixed;
     margin-left: 91%;
-    margin-top: 33.7%;
+    margin-top: 36.5%;
     transform: rotate(90deg);
     color: #86a0f5;
     font-size: 0.8rem;
@@ -270,6 +272,7 @@ body{
 .about__lista__item {
     margin: 0% 5% 0% 0%;   
 }
+
 
 
 
@@ -561,7 +564,7 @@ h6 {
 
 
 
-/* ============ Responvidade ============ */
+/* ============ Responsividade ============ */
 
  @media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
 
@@ -578,7 +581,7 @@ h6 {
 }
     .apresentacao {
         margin-top: 45%;
-        padding-left: 10%;
+        padding-left: 9%;
         margin-bottom: 70%;
     }
 
@@ -600,7 +603,7 @@ h6 {
     }
 
     .about__titulo {
-        padding-left: 9%;
+        padding-left: 8%;
     }
 
     .linha-horizontal {
@@ -621,16 +624,15 @@ h6 {
 
     .about__texto {
         margin-bottom: 25%;
-        margin-left: 9%;
+        margin-left: 8%;
         font-size: 18px
-        
     }   
 
     .about__lista {
         display: grid;
         grid-template-columns: 70px 70px 70px 70px;
         list-style:url('../assets/marcador2.PNG')
-        }
+    }
 
     .about__lista__item{
         margin-bottom: 15%;
@@ -643,7 +645,7 @@ h6 {
 
     
      .categoria__experiencia{
-        margin-left: 9%;
+        margin-left: 8%;
     }
     
     
@@ -658,7 +660,7 @@ h6 {
     }
 
     .experienciaSection {
-        margin-left: 19%;
+        margin-left: 18%;
         margin-bottom: 35%;
     }
 
@@ -686,7 +688,7 @@ h6 {
 
 
     .projetosH1 {
-        margin-left: 9%;
+        margin-left: 8%;
     }
 
     .linha-horizontal__projetos {
@@ -695,12 +697,12 @@ h6 {
     }
 
     .projetosH1 {
-        margin-left: 9%;
+        margin-left: 8%;
     }
 
     .projetos_section {
         margin-top: 17%;
-        margin-left: 9%;
+        margin-left: 8%;
         margin-bottom: 30%;
     }
 
@@ -784,8 +786,8 @@ h6 {
 
 
     .contato__section {
-        margin-top: 10%;
-        margin-bottom: 25%;
+        margin-top: 15%;
+        margin-bottom: 27%;
     }
 
     .contato__icons {
@@ -795,6 +797,22 @@ h6 {
     .rodape{
         margin-bottom: 5%;
         font-size: 65%;
+    }
+
+    .linha-horizontal {
+        width: 42%;
+        margin-left: 47%;
+    }
+
+    .linha-horizontal__experiencia {
+        width: 34%;
+        margin-left: 52%;
+    }
+
+    .linha-horizontal__projetos {
+        width: 50%;
+        margin-left: 39%;
+
     }
 
 }
