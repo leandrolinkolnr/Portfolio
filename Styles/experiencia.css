@@ -1,0 +1,35 @@
+.categoria__experiencia{
+    margin-left: 33%;
+    font-family: calibri;
+    font-size: 1.5rem;
+}
+
+.linha-horizontal__experiencia {
+    width: 21.5%;
+    border: 0.1rem solid #152e53;
+    margin-left: 42.5%;
+    position: relative;
+}
+
+
+.experienciaSection {
+    margin: 0% 35% 18% 20%;
+    font-family: 'Comic Neue', cursive;
+}
+
+.experiencia__titulo {
+    margin-top: 10%;
+    margin-left: 40%;
+}
+
+
+h6 {
+    margin-left: 40%;
+    color: #8892B0;
+}
+
+.experiencia__texto {
+    margin-left: 40%;
+    font-size: 1rem;
+    color: #8892B0;
+}   

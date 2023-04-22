@@ -1,0 +1,109 @@
+.projetosH1 {
+    margin: 0% 0% 5% 26%;
+    font-family: "calibri";
+    font-size: 1.5rem; 
+}
+
+.linha-horizontal__projetos {
+    width: 30%;
+    border: 0.1rem solid #152e53;
+    margin-left: 10%;
+    position: relative;
+}
+
+
+.projetos_section {
+    display: inline-block;
+    position: relative;
+    font-family: 'Calibre', sans-serif;
+    margin: 0% 0% 8% 26%;
+}
+
+
+.projetos__imagem {
+    filter: brightness(0.4); 
+    width: 45%;
+}
+
+
+.projetos__imagem:hover {
+    filter: none;
+}
+
+.projetos__titulo {
+    font-family: 'Fira Code', monospace;
+    color: #64FFDA;
+    font-size: 1.1rem;
+    }
+
+
+.projetos__titulo .A{
+    position: absolute; 
+    top: 0%;
+    right: 8%;
+    left: 60.6%; 
+ }
+        
+ .projetos__descrição{
+    background-color: #15294b;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #8892B0;
+}
+
+
+.projetos__descrição .A{
+    position: absolute;
+    top: 30%;
+    right: 22%;
+    left: 39%;
+    padding: 2% 1.5% 1.5% 2% ;
+}
+
+/* .projetos__descrição .B {
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    left: 9%;
+    padding: 2% 1.5% 1.5% 2% ;
+} */
+
+
+.projetos__listaTechs {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.8rem;
+    color: #8892B0;
+}
+
+
+.projetos__listaTechs .A {
+    position: absolute;
+    top: 70%;
+    right: 15%;
+    left: 62.2%;
+}
+
+
+.projetos__atalhosA{
+    width: 15%;
+    top: 85%;
+    position: absolute;
+    right: 71.5%;
+}
+
+
+.projetos__atalhosA .vercelA{
+    left: 415%; 
+}
+
+.projetos__atalhosA .vercelA:hover{
+    filter: contrast(900%); 
+}
+
+.projetos__atalhosA .githubA {
+    left: 390%; 
+}
+
+.projetos__atalhosA .githubA:hover{
+    filter: contrast(900%); 
+}

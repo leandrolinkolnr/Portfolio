@@ -1,0 +1,46 @@
+.cabecalho{
+    width: 100%;
+    padding-top: 0.3%;
+    padding-bottom: 1%;
+    background-color:#0a192f ;
+}
+
+.cabecalho__menu{
+    padding-top: 1.5%;
+    padding-right: 4%;
+    font-family: 'Fira Code', monospace;
+    display: flex;
+    gap: 1.5%;
+    justify-content: flex-end;
+}
+  
+
+.cabecalho__menu__link {
+    font-size: 0.8rem;
+    color: #CCD6F6;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__menu__link:hover {
+    color: #64FFDA;
+}
+
+.cabecalho__menu__link__resumo{
+    color: #64FFDA;
+    border: 0.1rem solid #64FFDA;
+    border-radius: 0.5rem;
+    padding: 8px 15px;
+}
+
+.cabecalho__menu__link__resumo:hover {
+    color: #52f79c;
+    border: 0.1rem solid #52f79c;
+}
+
+
+.numero {
+    color: #64FFDA;
+    font-family: 'Fira Code';
+}

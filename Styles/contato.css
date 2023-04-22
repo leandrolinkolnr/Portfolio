@@ -1,0 +1,35 @@
+.contato__section {
+    margin-top: 5%;
+    margin-left: 36.5%;
+    margin-right: 35%;
+    margin-bottom: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contato__titulo{
+    margin-bottom: 3%;
+    color: #64FFDA;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.9rem; 
+}
+
+.contato__h1 {
+    letter-spacing: 0.2rem;
+    font-family: 'Calibre', sans-serif;
+    color: #8892B0;
+}
+
+.contato__icons {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+    margin-right: 5%;
+    gap: 40%;
+}
+
+.contato__icone:hover {
+    transform: scale(1.15);
+}

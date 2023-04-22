@@ -1,0 +1,53 @@
+.projetos__imagem .B {
+    position: relative; 
+    top: 50%;
+    left: 33%;
+}
+
+
+.projetos__titulo B {
+    position: absolute; 
+    top: 10%;
+    right: 25%;
+    left: 0%;
+}
+
+
+.projetos__descrição .B{
+    position: absolute;
+    top: 30%;
+    right: 61.5%;
+    left: 0%;
+    padding: 1.5% 1.5% 1.5% 1.5% ;
+}
+
+
+.projetos__listaTechs .B {
+    position: absolute;
+    top: 66%;
+    right: 59.3%;
+    left: 0%;
+}
+
+.projetos__atalhosB{
+    width: 15%;
+    top: 80%;
+    position: absolute;
+}
+
+
+.projetos__atalhosB .vercelB{
+    left: 0%; 
+}
+
+.projetos__atalhosB .vercelB:hover{
+    filter: contrast(900%); 
+}
+
+.projetos__atalhosB .githubB {
+    left: 25%; 
+}
+
+.projetos__atalhosB .githubB:hover{
+    filter: contrast(900%); 
+}

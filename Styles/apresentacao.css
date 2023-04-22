@@ -1,0 +1,48 @@
+.titulo-destaque{
+    color: #CCD6F6;
+    font-size: 3.5rem;
+}
+
+.apresentacao{
+    padding: 10% 7% 25% 22%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo{
+    color: #64FFDA;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    
+}
+
+.apresentacao__conteudo__firstLine {
+    font-size: 0.9rem;
+    font-family: 'Fira Code', monospace;
+}
+
+.apresentacao__conteudo__titulo{
+    font-size: 2.2rem;
+    font-family: 'Calibre', sans-serif;
+}
+
+.apresentacao__conteudo__texto{
+    font-size: 1.2rem;
+    font-family: 'Calibre', sans-serif;
+    color: #8892B0;
+    padding: 5% 0% 10% 0%;
+}
+
+.apresentacao__images {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.images_tech {
+    width: 7%;
+    padding: 0 1.5%;
+}

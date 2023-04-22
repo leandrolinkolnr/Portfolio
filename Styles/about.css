@@ -1,0 +1,48 @@
+.about__titulo {
+    padding: 6% 50% 0% 26%;
+    color: #CCD6F6;
+    font-family: calibri;
+    font-size: 1.5rem;
+}
+
+.linha-horizontal {
+    width: 24%;
+    border: 0.1rem solid #152e53;
+    margin-left: 34.4%;
+    position: relative;
+}
+
+
+.conteudo__about {
+    margin: 2% 27% 11% 26%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: calibre; 
+}
+
+
+.about__texto {
+    margin: 0% 8% 0% 0%;
+    font-size: 1rem;
+    color: #8892B0;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+
+.paragrafo {
+    margin-bottom: 3%;
+}
+
+.about__lista {
+    display: flex;
+    flex-direction: row; 
+    margin-left: 4%;
+    gap: 6%;
+    list-style:url('../assets/marcador.PNG')
+}
+
+.about__lista__item {
+    margin: 0% 5% 0% 0%;   
+}

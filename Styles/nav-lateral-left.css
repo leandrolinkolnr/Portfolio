@@ -1,0 +1,66 @@
+.navLateral-l{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    margin-left: 3%;
+    gap: 30px;
+    font-size: 1.3rem;
+    height: 85%;
+    justify-content: flex-end;
+}
+
+.ri-github-line {
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+.ri-github-line:hover {
+    transform: scale(1.2);
+    color: #64FFDA;
+}
+
+.ri-linkedin-fill {
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+.ri-linkedin-fill:hover {
+    transform: scale(1.2);
+    color: #64FFDA;
+}
+
+.ri-instagram-line{
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+.ri-instagram-line:hover{
+    transform: scale(1.2);
+    color: #64FFDA;
+}
+
+
+.ri-facebook-fill{
+    text-decoration: none;
+    color: #9db0fd;
+}
+
+.ri-facebook-fill:hover{
+    transform: scale(1.2);
+    color: #64FFDA;
+}
+
+/* #linha-vertical-l {
+    height: 10%;
+    border-right: 0.1rem solid #CCD6F6;
+    position: fixed;
+    margin-top: 11%;
+    margin-left: 0.5%;
+} */
+
+.linha-horizontal {
+    width: 24%;
+    border: 0.1rem solid #152e53;
+    margin-left: 34.4%;
+    position: relative;
+}
