@@ -44,3 +44,15 @@
     color: #64FFDA;
     font-family: 'Fira Code';
 }
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+    .cabecalho {
+        display: none;
+    }
+    
+}

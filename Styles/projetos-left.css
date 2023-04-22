@@ -60,15 +60,6 @@
     padding: 2% 1.5% 1.5% 2% ;
 }
 
-/* .projetos__descrição .B {
-    position: absolute;
-    top: 7%;
-    right: 2%;
-    left: 9%;
-    padding: 2% 1.5% 1.5% 2% ;
-} */
-
-
 .projetos__listaTechs {
     font-family: 'Fira Code', monospace;
     font-size: 0.8rem;
@@ -106,4 +97,78 @@
 
 .projetos__atalhosA .githubA:hover{
     filter: contrast(900%); 
+}
+
+
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+
+    .projetosH1 {
+        margin-left: 8%;
+    }
+
+    .linha-horizontal__projetos {
+        width: 50%;
+        margin-left: 35%;
+    }
+
+    .projetosH1 {
+        margin-left: 8%;
+    }
+
+    .projetos_section {
+        margin-top: 17%;
+        margin-left: 8%;
+        margin-bottom: 30%;
+    }
+
+    .projetos__titulo .A { 
+        left: 3%; 
+    }
+
+    .projetos__descrição{
+        text-align: justify;
+    }
+
+    .projetos__descrição .A{
+        margin-top: -3%;
+        right: 11%;
+        left: 3%;
+        padding: 6% 6% 6% 6% ;
+    }
+
+    .projetos__listaTechs {
+        margin-top: 24%;   
+    }
+
+    .projetos__listaTechs .A {
+        right: 15%;
+        left: 3.5%;
+    }
+
+    .projetos__atalhosA{
+        width: 25%;
+        top: 110%;
+        right: 98%;
+    }
+
+    .projetos__atalhosA .vercelA{
+        left: 415%; 
+    }
+
+
+    .projetos__atalhosA .githubA {
+        left: 375%; 
+    }
+
+    .linha-horizontal__projetos {
+        width: 50%;
+        margin-left: 39%;
+    }
+
 }

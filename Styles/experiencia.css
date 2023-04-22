@@ -33,3 +33,51 @@ h6 {
     font-size: 1rem;
     color: #8892B0;
 }   
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+    
+    .categoria__experiencia{
+       margin-left: 8%;
+   }
+   
+   
+   .experienciaSection {
+       margin: 0% 15% 21% 0%;
+   }
+
+  
+   /* .linha-horizontal__experiencia {
+       width: 38.5%;
+       margin-left: 47%;
+   } */
+
+   .experienciaSection {
+       margin-left: 18%;
+       margin-bottom: 35%;
+   }
+
+   .experiencia__titulo {
+       margin-top: 25%;
+       font-size: 1rem;
+       margin-left: 0%;
+   }
+
+   h6 {
+       margin-left: 0%;    
+   }
+
+   .experiencia__texto {
+       text-align: justify;
+       margin-left: 0%;
+   }
+
+   .linha-horizontal__experiencia {
+    width: 34%;
+    margin-left: 52%;
+}
+}

@@ -30,3 +30,14 @@
     margin-top: 41.1%;
     margin-left: 96.8%;
 } */
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+    
+    .navLateral-r{
+        display: none;
+    }
+}

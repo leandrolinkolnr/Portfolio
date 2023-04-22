@@ -46,3 +46,33 @@
     width: 7%;
     padding: 0 1.5%;
 }
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+    .apresentacao {
+        margin-top: 45%;
+        padding-left: 10%;
+        margin-bottom: 70%;
+    }
+
+    .apresentacao__conteudo {
+        width: 100%;
+    }
+
+    .apresentacao__conteudo__firstLine {
+        font-size: 16px;
+    }
+
+    .titulo-destaque{
+        font-size: 2.5rem;
+    }
+
+    .images_tech {
+        width: 10%;
+        padding: 0 2%;
+    }
+
+}

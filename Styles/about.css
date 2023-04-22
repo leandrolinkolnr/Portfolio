@@ -46,3 +46,56 @@
 .about__lista__item {
     margin: 0% 5% 0% 0%;   
 }
+
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+
+    .about__titulo {
+        padding-left: 8%;
+    }
+
+    .linha-horizontal {
+        width: 44%;
+        margin-left: 47%;
+    }
+
+    .paragrafo {
+        margin-top: 9%;
+    }
+
+    .conteudo__about {
+        margin: 2% 1% 0% 1%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about__texto {
+        margin-top: 5%;
+        margin-bottom: 25%;
+        margin-left: 8%;
+        font-size: 18px
+    }   
+
+    .about__lista {
+        display: grid;
+        grid-template-columns: 70px 70px 70px 70px;
+        list-style:url('../assets/marcador2.PNG')
+    }
+
+    .about__lista__item{
+        margin-bottom: 15%;
+        font-size: 0.9rem;
+    }
+
+    .about__img {
+        margin-bottom: 25%;
+    }
+
+
+}

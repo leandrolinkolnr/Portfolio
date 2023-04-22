@@ -51,3 +51,58 @@
 .projetos__atalhosB .githubB:hover{
     filter: contrast(900%); 
 }
+
+
+
+
+/* ============ Responsividade ============ */
+
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+
+    .projetos__imagem, .projetos__imagem .B {
+        visibility: hidden; }
+
+    .projetos__titulo .B{
+        position: relative;
+        left: 3%;
+    }
+
+    .projetos__descrição{
+        text-align: justify;
+    }
+
+    
+    .projetos__descrição .B{
+        margin-top: -3%;
+        right: 11%;
+        left: 3%;
+        padding: 6% 6% 6% 6% ;
+    } 
+
+    .projetos__listaTechs {
+        margin-top: 24%;   
+    }
+
+    .projetos__listaTechs .B {
+        margin-top: 26%;
+        right: 15%;
+        left: 3.5%;
+    }
+
+    .projetos__atalhosB{
+        width: 25%;
+        top: 104%;
+        right: 98%;
+    }
+
+    .projetos__atalhosB .vercelB{
+        left: 415%; 
+    }
+
+
+    .projetos__atalhosB .githubB {
+        left: 375%; 
+    }
+}

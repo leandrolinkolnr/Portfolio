@@ -33,3 +33,30 @@
 .contato__icone:hover {
     transform: scale(1.15);
 }
+
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+
+    .contato__section {
+        /* margin-top: 20%;
+        margin-bottom: 35%; */
+    }
+
+    .contato__section {
+        margin-top: 20%;
+
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-bottom: 25%;
+    }
+
+    .contato__icons {
+        margin-left: -8%;
+    }
+
+}
