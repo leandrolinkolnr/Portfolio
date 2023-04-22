@@ -121,11 +121,11 @@ body{
     display: flex;
     flex-direction: column;
     position: fixed;
-    margin-top: 33%;
     margin-left: 3%;
     gap: 30px;
     font-size: 1.3rem;
-
+    height: 85%;
+    justify-content: flex-end;
 }
 
 .ri-github-line {
@@ -169,18 +169,18 @@ body{
     color: #64FFDA;
 }
 
-#linha-vertical-l {
+/* #linha-vertical-l {
     height: 10%;
     border-right: 0.1rem solid #CCD6F6;
     position: fixed;
     margin-top: 11%;
     margin-left: 0.5%;
-}
+} */
 
 .linha-horizontal {
-    width: 22.5%;
+    width: 24%;
     border: 0.1rem solid #152e53;
-    margin-left: 34%;
+    margin-left: 34.4%;
     position: relative;
 }
 
@@ -188,41 +188,36 @@ body{
 
 /* ============ NAV LATERAL RIGHT ============= */
 
-.navLateral-R{
+.navLateral-r{
     display: flex;
     flex-direction: column;
     position: fixed;
-    margin-left: 35%;
     font-size: 1.3rem;
+    height: 30%;
+    width: 2%;
+    right: 2%;
+    bottom: 0%;
 }
 
 .navLateral-r__email{
-    position: fixed;
-    margin-left: 91%;
-    margin-top: 36.5%;
-    transform: rotate(90deg);
-    color: #86a0f5;
-    font-size: 0.8rem;
     letter-spacing: 2.5px;
+    font-size: 0.8rem;
+    color: #86a0f5;
     text-decoration: none;
+    transform: rotate(90deg);
 }
 
 .navLateral-r__email:hover{
-
     color: #64FFDA;
-
 }
 
-#linha-vertical-r {
+/* #linha-vertical-r {
     height: 9%;
     border-right: 0.1rem solid #CCD6F6;
     position: fixed;
     margin-top: 41.1%;
     margin-left: 96.8%;
-}
-
-
-
+} */
 
 
 
@@ -240,7 +235,7 @@ body{
 
 
 .conteudo__about {
-    margin: 2% 27% 0% 26%;
+    margin: 2% 27% 11% 26%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -249,7 +244,7 @@ body{
 
 
 .about__texto {
-    margin: 0% 8% 55% 0%;
+    margin: 0% 8% 0% 0%;
     font-size: 1rem;
     color: #8892B0;
     text-align: justify;
@@ -280,23 +275,21 @@ body{
 
 
 .categoria__experiencia{
-    margin-top: 0%;
-    padding-top: 14%;
     margin-left: 33%;
     font-family: calibri;
     font-size: 1.5rem;
 }
 
 .linha-horizontal__experiencia {
-    width: 22%;
+    width: 21.5%;
     border: 0.1rem solid #152e53;
-    margin-left: 42%;
+    margin-left: 42.5%;
     position: relative;
 }
 
 
 .experienciaSection {
-    margin: 0% 35% 21% 20%;
+    margin: 0% 35% 18% 20%;
     font-family: 'Comic Neue', cursive;
 }
 
@@ -313,7 +306,6 @@ h6 {
 
 .experiencia__texto {
     margin-left: 40%;
-    margin-right: 0%;
     font-size: 1rem;
     color: #8892B0;
 }
@@ -324,8 +316,7 @@ h6 {
 
 .projetosH1 {
     margin: 0% 0% 5% 26%;
-    padding-top: 10%;
-    font-family: calibri;
+    font-family: "calibri";
     font-size: 1.5rem; 
 }
 
