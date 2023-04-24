@@ -9,7 +9,7 @@
     position: absolute; 
     top: 10%;
     right: 25%;
-    left: 0%;
+    /* left: 0%; */
 }
 
 
@@ -17,7 +17,7 @@
     position: absolute;
     top: 30%;
     right: 61.5%;
-    left: 0%;
+    /* left: 0%; */
     padding: 1.5% 1.5% 1.5% 1.5% ;
 }
 
@@ -25,7 +25,6 @@
 .projetos__listaTechs .B {
     position: absolute;
     top: 66%;
-    right: 59.3%;
     left: 0%;
 }
 
@@ -37,7 +36,7 @@
 
 
 .projetos__atalhosB .vercelB{
-    left: 0%; 
+    /* left: 0%;  */
 }
 
 .projetos__atalhosB .vercelB:hover{
