@@ -60,8 +60,8 @@
     }
 
     .linha-horizontal {
-        width: 44%;
-        margin-left: 47%;
+        width: 45%;
+        margin-left: 45%;
     }
 
     .paragrafo {
@@ -78,7 +78,8 @@
     .about__texto {
         margin-top: 5%;
         margin-bottom: 25%;
-        margin-left: 8%;
+        margin-left: 7%;
+        margin-right:7%;
         font-size: 18px
     }   
 
@@ -96,6 +97,5 @@
     .about__img {
         margin-bottom: 25%;
     }
-
 
 }
