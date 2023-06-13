@@ -1,32 +1,30 @@
 .projetos__imagem .B {
     position: relative; 
     top: 50%;
-    left: 33%;
+    left: 40%;
+    /* left: 10%;
+    right: 25%; */
+    width: 43%;
 }
 
 
-.projetos__titulo B {
+.projetos__titulo .B {
     position: absolute; 
-    top: 10%;
-    right: 25%;
-    /* left: 0%; */
+    top: 1%;
+    left: 17%;
 }
 
 
 .projetos__descrição .B{
     position: absolute;
     top: 30%;
-    right: 61.5%;
-    /* left: 0%; */
-    padding: 1.5% 1.5% 1.5% 1.5% ;
+    right: 44%;
+    left: 16.5%;
+    line-height: 125%;
+    padding: 1% 1% 1% 1% ;
+    text-align: justify;
 }
 
-
-.projetos__listaTechs .B {
-    position: absolute;
-    top: 66%;
-    left: 0%;
-}
 
 .projetos__atalhosB{
     width: 15%;
@@ -34,10 +32,6 @@
     position: absolute;
 }
 
-
-.projetos__atalhosB .vercelB{
-    /* left: 0%;  */
-}
 
 .projetos__atalhosB .vercelB:hover{
     filter: contrast(900%); 

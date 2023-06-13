@@ -29,6 +29,7 @@
     text-align: justify;
     display: flex;
     flex-direction: column;
+    line-height: 130%;
 }
 
 .paragrafo {
@@ -38,13 +39,14 @@
 .about__lista {
     display: flex;
     flex-direction: row; 
-    margin-left: 4%;
-    gap: 6%;
+    margin-left: 5%;
+    gap: 17%;
     list-style:url('../assets/marcador.PNG')
 }
 
 .about__lista__item {
-    margin: 0% 5% 0% 0%;   
+    /* margin: 0% -3% 0% 0%;    */
+
 }
 
 

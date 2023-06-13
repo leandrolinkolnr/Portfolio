@@ -1,5 +1,5 @@
 .projetosH1 {
-    margin: 0% 0% 5% 26%;
+    margin: 0% 0% 10% 17%;
     font-family: "calibri";
     font-size: 1.5rem; 
 }
@@ -13,16 +13,17 @@
 
 
 .projetos_section {
+    width: 100%;
     display: inline-block;
     position: relative;
     font-family: 'Calibre', sans-serif;
-    margin: 0% 0% 8% 26%;
+    /* margin: 0% 0% 8% 26%; */
 }
 
 
 .projetos__imagem {
     filter: brightness(0.4); 
-    width: 45%;
+    width: 55%;
 }
 
 
@@ -48,6 +49,7 @@
     border-radius: 5px;
     font-size: 1rem;
     color: #8892B0;
+    line-height: 125%;
 }
 
 
@@ -55,7 +57,7 @@
     position: absolute;
     top: 30%;
     right: 22%;
-    left: 39%;
+    left: 30%;
     padding: 2% 1.5% 1.5% 2% ;
 }
 
