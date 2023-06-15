@@ -17,15 +17,16 @@
     display: inline-block;
     position: relative;
     font-family: 'Calibre', sans-serif;
-    /* margin: 0% 0% 8% 26%; */
+    margin-bottom: 10%;
 }
 
 
 .projetos__imagem {
+    position: relative; 
+    left: 17%;
     filter: brightness(0.4); 
-    width: 55%;
+    width: 43%;
 }
-
 
 .projetos__imagem:hover {
     filter: none;
@@ -40,8 +41,8 @@
 
 .projetos__titulo .A{
     position: absolute; 
-    top: 0%;
-    right: 22%;
+    top: 10%;
+    right: 20%;
  }
         
  .projetos__descrição{
@@ -56,9 +57,11 @@
 .projetos__descrição .A{
     position: absolute;
     top: 30%;
-    right: 22%;
-    left: 30%;
-    padding: 2% 1.5% 1.5% 2% ;
+    right: 17%;
+    left: 40%;
+    line-height: 125%;
+    padding: 1% 1% 1% 1% ;
+    text-align: justify;
 }
 
 .projetos__listaTechs {
