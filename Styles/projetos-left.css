@@ -24,7 +24,7 @@
 .projetos__imagem {
     position: relative; 
     left: 17%;
-    filter: brightness(0.4); 
+    filter: brightness(0.2); 
     width: 43%;
 }
 
