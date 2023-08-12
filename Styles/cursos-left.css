@@ -1,0 +1,123 @@
+.cursos {
+    margin: 10% 0% 12% 17%;
+    font-family: "calibri";
+    font-size: 1.5rem; 
+}
+
+
+.linha-horizontal__cursos {
+    width: 45%;
+    border: 0.1rem solid #152e53;
+    margin-left: 22%;
+    position: relative;
+}
+
+
+.cursos__section {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+    font-family: 'Calibre', sans-serif;
+    margin-bottom: 10%;
+}
+
+.cursos__titulo {
+    font-family: 'Fira Code', monospace;
+    color: #64FFDA;
+    font-size: 1.1rem;
+}
+
+.cursos__imagem {
+    position: relative; 
+    left: 17%;
+    filter: brightness(0.2); 
+    width: 40%;
+}
+
+
+.cursos__imagem:hover {
+    filter: none;
+}
+
+.cursos__titulo .A{
+    position: absolute; 
+    top: 10%;
+    right: 20%;
+ }
+
+
+ .cursos__descrição{
+    background-color: #1d3155;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #8892B0;
+    line-height: 125%;
+}
+
+
+.cursos__descrição .A{
+    position: absolute;
+    top: 35%;
+    right: 17%;
+    left: 50%;
+    line-height: 150%;
+    padding: 1% 1% 1% 1% ;
+    text-align: justify;
+}
+
+
+
+
+.cursos__link {
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75rem;
+    position: absolute;
+    top: 85%;
+    left: 73%;
+    color: #64FFDA;
+}
+
+
+
+
+
+
+
+/* ============ Responsividade ============ */
+
+@media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
+
+
+    .cursos {
+        margin-left: 8%;
+    }
+
+    .linha-horizontal__cursos {
+        width: 50%;
+        margin-left: 35%;
+    }
+
+    .cursos_section {
+        margin-top: 17%;
+        margin-left: 8%;
+        margin-bottom: 30%;
+    }
+
+    .cursos__titulo .A { 
+        left: 3%; 
+    }
+
+    .cursos__descrição{
+        text-align: justify;
+    }
+
+    .cursos__descrição .A{
+        margin-top: -3%;
+        right: 11%;
+        left: 3%;
+        padding: 6% 6% 6% 6% ;
+    }
+
+   
+
+}
