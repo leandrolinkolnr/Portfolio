@@ -39,8 +39,9 @@
 .about__lista {
     display: flex;
     flex-direction: row; 
+    margin-top: 4%;
     margin-left: 5%;
-    gap: 17%;
+    gap: 15%;
     list-style:url('../assets/marcador.PNG')
 }
 
