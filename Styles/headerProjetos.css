@@ -1,0 +1,17 @@
+.cabecalho{
+    padding-top: 1%;
+    padding-bottom: 10%;
+    background-color:#0a192f ;
+}
+
+
+.cabecalho__menu__link {
+    font-size: 1rem;
+    color: #CCD6F6;
+    text-decoration: none;
+    padding-right: 5%;
+}
+
+.cabecalho__menu__link:hover {
+    color: #64FFDA;
+}
