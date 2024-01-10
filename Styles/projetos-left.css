@@ -5,9 +5,9 @@
 }
 
 .linha-horizontal__projetos {
-    width: 30%;
+    width: 65%;
     border: 0.1rem solid #152e53;
-    margin-left: 10%;
+    margin-left: 12%;
     position: relative;
 }
 
