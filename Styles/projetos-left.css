@@ -42,8 +42,9 @@
 
 .projetos__titulo .A{
     position: absolute; 
-    top: 10%;
-    right: 20%;
+    top: 5%;
+    left: 65%;
+    right: 16%;
  }
         
  .projetos__descrição{

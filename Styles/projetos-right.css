@@ -9,18 +9,19 @@
 .projetos__titulo .B {
     position: absolute; 
     top: 10%;
-    left: 20%;
+    left: 17%;
+    right: 62%;
 }
 
 
 .projetos__descrição .B{
     position: absolute;
-    top: 30%;
+    top: 35%;
     right: 44%;
     left: 16.5%;
     line-height: 125%;
     padding: 1% 1% 1% 1% ;
-    text-align: justify;
+    text-align: justify;
 }
 
 
