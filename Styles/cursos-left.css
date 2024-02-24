@@ -1,5 +1,5 @@
 .cursos {
-    margin: 5% 0% 12% 17%;
+    margin: 5% 0% 9% 17%;
     padding-top: 5%;
     font-family: "calibri";
     font-size: 1.5rem; 
@@ -7,9 +7,9 @@
 
 
 .linha-horizontal__cursos {
-    width: 45%;
+    width: 50%;
     border: 0.1rem solid #152e53;
-    margin-left: 22%;
+    margin-left: 25%;
     position: relative;
 }
 
