@@ -44,6 +44,16 @@
     filter: contrast(900%); 
 }
 
+.link_cc_right {
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75rem;
+    margin-left: 17%;
+    margin-top: -5%;
+    color: #64FFDA;
+    
+}
+
 
 
 
@@ -62,15 +72,16 @@
     }
 
     .projetos__descrição{
+        margin-top: 35%;
         text-align: justify;
     }
 
     
     .projetos__descrição .B{
-        margin-top: -3%;
+        
         right: 11%;
         left: 3%;
-        padding: 6% 6% 6% 6% ;
+        padding: 6% 6% 6% 0% ;
     } 
 
     .projetos__listaTechs {
@@ -96,5 +107,14 @@
 
     .projetos__atalhosB .githubB {
         left: 375%; 
+    }
+
+    .link_cc_right {
+        position: absolute;
+        font-family: 'Fira Code', monospace;
+        font-size: 0.75rem;
+        margin-left: 53%;
+        margin-top: -1%;
+        color: #64FFDA;
     }
 }

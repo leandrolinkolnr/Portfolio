@@ -104,6 +104,14 @@
     filter: contrast(900%); 
 }
 
+.link_cc_left {
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+    font-size: 0.75rem;
+    margin-left: 71%;
+    margin-top: -5%;
+    color: #64FFDA
+}
 
 
 
@@ -141,7 +149,7 @@
     }
 
     .projetos__descrição .A{
-        margin-top: -3%;
+        margin-top: 9%;
         right: 11%;
         left: 3%;
         padding: 6% 6% 6% 6% ;
@@ -174,6 +182,15 @@
     .linha-horizontal__projetos {
         width: 50%;
         margin-left: 39%;
+    }
+
+    .link_cc_left {
+        position: absolute;
+        font-family: 'Fira Code', monospace;
+        font-size: 0.75rem;
+        margin-left: 53%;
+        margin-top: 3%;
+        color: #64FFDA
     }
 
 }
