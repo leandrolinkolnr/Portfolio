@@ -63,15 +63,15 @@
 @media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
 
 
-    .projetos__imagem, .projetos__imagem .B {
-        visibility: hidden; }
+    /* .projetos__imagem, .projetos__imagem .B {
+        visibility: hidden; } */
 
-    .projetos__titulo .B{
+    /* .projetos__titulo .B{
         position: relative;
         left: 3%;
-    }
+    } */
 
-    .projetos__descrição{
+    /* .projetos__descrição{
         margin-top: 35%;
         text-align: justify;
     }
@@ -82,7 +82,28 @@
         right: 11%;
         left: 3%;
         padding: 6% 6% 6% 0% ;
+    }  */
+
+    .projetos__imagem, .projetos__imagem .B {
+        visibility: hidden; }
+
+    .projetos__titulo .B{
+        /* margin-top: -7%; */
+        position: relative;
+        left: 3%;
+    }
+
+    .projetos__descrição{
+        text-align: justify;
+    }
+
+    .projetos__descrição .B{
+        margin-top: 3%;
+        right: 11%;
+        left: 3%;
+        padding: 4% 6% 4% 6% ;
     } 
+
 
     .projetos__listaTechs {
         margin-top: 24%;   
@@ -114,7 +135,20 @@
         font-family: 'Fira Code', monospace;
         font-size: 0.75rem;
         margin-left: 53%;
-        margin-top: -1%;
+        margin-top: 21%;
         color: #64FFDA;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    
 }

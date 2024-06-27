@@ -50,7 +50,7 @@
 @media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
 
 
-    .projetos__imagem, .projetos__imagem .B {
+    /* .projetos__imagem, .projetos__imagem .B {
         visibility: hidden; }
 
     .projetos__titulo .B{
@@ -67,6 +67,6 @@
         right: 11%;
         left: 3%;
         padding: 6% 6% 6% 6% ;
-    } 
+    }  */
 
 }
