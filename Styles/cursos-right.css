@@ -50,23 +50,35 @@
 @media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
 
 
-    /* .projetos__imagem, .projetos__imagem .B {
-        visibility: hidden; }
+    .cursos__titulo .B {
 
-    .projetos__titulo .B{
-        position: relative;
-        left: 3%;
+        top: 20%;
+
     }
 
-    .projetos__descrição{
+    .cursos__imagem .B{
+        display: none;
+    }
+
+    .cursos__section {
+        padding-bottom: 40%;
+        margin-bottom: 40%;
+    }
+
+    .cursos__descrição .B{
+        position: absolute;
+        top: 40%;
+        right: 15%;
+        left: 15%;
+        line-height: 125%;
+        padding: 3% 5% 3% 5% ;
         text-align: justify;
     }
 
-    .projetos__descrição .B{
-        margin-top: -3%;
-        right: 11%;
-        left: 3%;
-        padding: 6% 6% 6% 6% ;
-    }  */
+    .cursos__linkB{
+        margin-top: 6%;
+        margin-right: 0%;
+        margin-left: 35%;
+    }
 
 }

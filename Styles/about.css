@@ -84,7 +84,8 @@
     .about__lista {
         display: grid;
         grid-template-columns: 70px 70px 70px 70px;
-        list-style:url('../assets/marcador2.PNG')
+        list-style:url('../assets/marcador2.PNG');
+        margin-right: 35%
     }
 
     .about__lista__item{
