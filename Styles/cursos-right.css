@@ -51,7 +51,6 @@
 
 
     .cursos__titulo .B {
-
         top: 20%;
 
     }
@@ -62,7 +61,7 @@
 
     .cursos__section {
         padding-bottom: 40%;
-        margin-bottom: 40%;
+        margin-bottom: 30%;
     }
 
     .cursos__descrição .B{

@@ -88,14 +88,21 @@
 
 @media(max-width: 800px ){  /* Se largura for MENOR que 800px, haja assim */
 
+    .cursos {
+        margin-top: 28%;
+    }
+
+    .linha-horizontal__cursos {
+        display: none;
+    }
 
     .cursos__imagem {
         display: none;
     }
 
     .cursos__section {
-        padding-bottom: 40%;
-        margin-bottom: 40%;
+        /* padding-bottom: 40%; */
+        /* margin-bottom: 10%; */
     }
 
     .cursos__descrição .A{

@@ -85,7 +85,7 @@
     }  */
 
     .projetos__imagem, .projetos__imagem .B {
-        visibility: hidden; }
+        display: none; }
 
     .projetos__titulo .B{
         /* margin-top: -7%; */
@@ -98,7 +98,8 @@
     }
 
     .projetos__descrição .B{
-        margin-top: 3%;
+        margin-right: 8%;
+        margin-top: 10%;
         right: 11%;
         left: 3%;
         padding: 4% 6% 4% 6% ;
@@ -134,8 +135,8 @@
         position: absolute;
         font-family: 'Fira Code', monospace;
         font-size: 0.75rem;
-        margin-left: 53%;
-        margin-top: 21%;
+        margin-left: 45%;
+        margin-top: 50%;
         color: #64FFDA;
     }
 
