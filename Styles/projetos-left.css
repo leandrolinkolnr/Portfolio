@@ -36,14 +36,14 @@
 .projetos__titulo {
     font-family: 'Fira Code', monospace;
     color: #64FFDA;
-    font-size: 1.1rem;
+    font-size: 1rem;
     }
 
 
 .projetos__titulo .A{
     position: absolute; 
     top: 5%;
-    left: 62%;
+    left: 61%;
     right: 16%;
  }
         

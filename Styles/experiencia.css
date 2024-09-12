@@ -18,6 +18,7 @@
 }
 
 .experiencia__titulo {
+    font-size: 1rem;
     margin-top: 5%;
     margin-left: 40%;
 }
@@ -31,7 +32,7 @@ h6 {
 .experiencia__texto {
     margin-left: 40%;
     margin-right: 0%;
-    font-size: 1rem;
+    font-size: 0.9rem;
     color: #8892B0;
 }   
 
